@@ -1,4 +1,4 @@
-# NBA Final Season MVP Prediction
+# NBA Regular Season MVP Prediction
 
 BT5153 Applied Machine Learning for Business Analytics,AY 2019/2020 Spring Semester
 
