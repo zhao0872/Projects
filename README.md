@@ -12,12 +12,22 @@ Every May to June, basketball fans all over the world tensely wait for an announ
 
 ## List of files(code and corresponding data):
 
-1. Statistical Approach
-Approach 1: xxx.ipynb (data xxx.csv)
+1. "Statistical Data" folder contains
 
-Apporach 2: xxx
-...
+* Scraping notebooks and scraped data
 
-2. Text-Based Apporach
-Sentiment Traning: Text_Final_Modeling_Mapping_Scores_to_Votes.ipynb (data xxx.csv)
-...
+* Data cleaning and visualization notebooks and cleaned data
+
+2. "Statistical Code" folder contains
+
+* Notebooks for approach 1-4 of statistical analysis. Note the data are included again for convenience to run code
+
+3. "Text Data" folder contains 
+
+* All the data used to run notebooks in Text Code folder
+
+4. "Text Code" folder contains 
+
+* All the notebooks for text-based analysis
+
+
