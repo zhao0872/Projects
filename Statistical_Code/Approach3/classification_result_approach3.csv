@@ -1,0 +1,71 @@
+,model,param,acc,top,mvp
+0,LogisticRegression,"{'C': 1000, 'random_state': 221}",0.7330335568321839,0.963157894736842,1.0
+1,LogisticRegression,"{'C': 10000, 'random_state': 221}",0.7285632464408209,0.963157894736842,1.0
+2,LogisticRegression,"{'C': 100000, 'random_state': 221}",0.7263702639846805,0.9578947368421052,1.0
+3,LogisticRegression,"{'C': 1000000, 'random_state': 221}",0.7319003936566867,0.963157894736842,1.0
+4,KNeighborsClassifier,"{'n_neighbors': 3, 'weights': 'uniform', 'p': 1}",0.5131148885439503,0.6473684210526318,0.631578947368421
+5,KNeighborsClassifier,"{'n_neighbors': 3, 'weights': 'uniform', 'p': 2}",0.519836856507337,0.6736842105263159,0.631578947368421
+6,KNeighborsClassifier,"{'n_neighbors': 3, 'weights': 'distance', 'p': 1}",0.5124774634213993,0.5789473684210528,0.5526315789473685
+7,KNeighborsClassifier,"{'n_neighbors': 3, 'weights': 'distance', 'p': 2}",0.5159099577005756,0.6105263157894738,0.5789473684210527
+8,KNeighborsClassifier,"{'n_neighbors': 5, 'weights': 'uniform', 'p': 1}",0.5099941058179044,0.6421052631578947,0.7368421052631579
+9,KNeighborsClassifier,"{'n_neighbors': 5, 'weights': 'uniform', 'p': 2}",0.49817973788225495,0.6315789473684211,0.6578947368421053
+10,KNeighborsClassifier,"{'n_neighbors': 5, 'weights': 'distance', 'p': 1}",0.5200575549545801,0.6157894736842104,0.7368421052631579
+11,KNeighborsClassifier,"{'n_neighbors': 5, 'weights': 'distance', 'p': 2}",0.5169111018653352,0.6263157894736844,0.6578947368421053
+12,KNeighborsClassifier,"{'n_neighbors': 7, 'weights': 'uniform', 'p': 1}",0.5097990777338604,0.6157894736842106,0.631578947368421
+13,KNeighborsClassifier,"{'n_neighbors': 7, 'weights': 'uniform', 'p': 2}",0.5089886276957215,0.6210526315789474,0.6578947368421053
+14,KNeighborsClassifier,"{'n_neighbors': 7, 'weights': 'distance', 'p': 1}",0.5309747937036267,0.6105263157894738,0.6052631578947368
+15,KNeighborsClassifier,"{'n_neighbors': 7, 'weights': 'distance', 'p': 2}",0.5263331253033768,0.6157894736842106,0.631578947368421
+16,DecisionTreeClassifier,"{'criterion': 'gini', 'max_depth': 40, 'random_state': 221}",0.6519385458172643,0.9263157894736841,1.0
+17,DecisionTreeClassifier,"{'criterion': 'gini', 'max_depth': 50, 'random_state': 221}",0.6519385458172643,0.9263157894736841,1.0
+18,DecisionTreeClassifier,"{'criterion': 'gini', 'max_depth': 60, 'random_state': 221}",0.6519385458172643,0.9263157894736841,1.0
+19,DecisionTreeClassifier,"{'criterion': 'gini', 'max_depth': 70, 'random_state': 221}",0.6519385458172643,0.9263157894736841,1.0
+20,DecisionTreeClassifier,"{'criterion': 'gini', 'max_depth': 80, 'random_state': 221}",0.6519385458172643,0.9263157894736841,1.0
+21,DecisionTreeClassifier,"{'criterion': 'entropy', 'max_depth': 40, 'random_state': 221}",0.6155226352594775,0.8894736842105262,0.9736842105263158
+22,DecisionTreeClassifier,"{'criterion': 'entropy', 'max_depth': 50, 'random_state': 221}",0.6155226352594775,0.8894736842105262,0.9736842105263158
+23,DecisionTreeClassifier,"{'criterion': 'entropy', 'max_depth': 60, 'random_state': 221}",0.6155226352594775,0.8894736842105262,0.9736842105263158
+24,DecisionTreeClassifier,"{'criterion': 'entropy', 'max_depth': 70, 'random_state': 221}",0.6155226352594775,0.8894736842105262,0.9736842105263158
+25,DecisionTreeClassifier,"{'criterion': 'entropy', 'max_depth': 80, 'random_state': 221}",0.6155226352594775,0.8894736842105262,0.9736842105263158
+26,RandomForestClassifier,"{'n_estimators': 200, 'max_depth': 40, 'random_state': 221}",0.7397231868055667,0.963157894736842,1.0
+27,RandomForestClassifier,"{'n_estimators': 200, 'max_depth': 50, 'random_state': 221}",0.7397231868055667,0.963157894736842,1.0
+28,RandomForestClassifier,"{'n_estimators': 200, 'max_depth': 60, 'random_state': 221}",0.7397231868055667,0.963157894736842,1.0
+29,RandomForestClassifier,"{'n_estimators': 200, 'max_depth': 70, 'random_state': 221}",0.7397231868055667,0.963157894736842,1.0
+30,RandomForestClassifier,"{'n_estimators': 200, 'max_depth': 80, 'random_state': 221}",0.7397231868055667,0.963157894736842,1.0
+31,RandomForestClassifier,"{'n_estimators': 300, 'max_depth': 40, 'random_state': 221}",0.7452056429459175,0.963157894736842,1.0
+32,RandomForestClassifier,"{'n_estimators': 300, 'max_depth': 50, 'random_state': 221}",0.7452056429459175,0.963157894736842,1.0
+33,RandomForestClassifier,"{'n_estimators': 300, 'max_depth': 60, 'random_state': 221}",0.7452056429459175,0.963157894736842,1.0
+34,RandomForestClassifier,"{'n_estimators': 300, 'max_depth': 70, 'random_state': 221}",0.7452056429459175,0.963157894736842,1.0
+35,RandomForestClassifier,"{'n_estimators': 300, 'max_depth': 80, 'random_state': 221}",0.7452056429459175,0.963157894736842,1.0
+36,SVC,"{'kernel': 'linear', 'C': 0.1, 'random_state': 221}",0.7265499565270733,0.9526315789473683,1.0
+37,SVC,"{'kernel': 'linear', 'C': 1, 'random_state': 221}",0.7342730686552197,0.9578947368421052,1.0
+38,SVC,"{'kernel': 'linear', 'C': 10, 'random_state': 221}",0.7286952654515583,0.9578947368421052,1.0
+39,SVC,"{'kernel': 'rbf', 'C': 0.1, 'random_state': 221}",0.46441354221674586,1.0,1.0
+40,SVC,"{'kernel': 'rbf', 'C': 1, 'random_state': 221}",0.46441354221674586,1.0,1.0
+41,SVC,"{'kernel': 'rbf', 'C': 10, 'random_state': 221}",0.46441354221674586,1.0,1.0
+42,SVC,"{'kernel': 'sigmoid', 'C': 0.1, 'random_state': 221}",0.46441354221674586,1.0,1.0
+43,SVC,"{'kernel': 'sigmoid', 'C': 1, 'random_state': 221}",0.46441354221674586,1.0,1.0
+44,SVC,"{'kernel': 'sigmoid', 'C': 10, 'random_state': 221}",0.46441354221674586,1.0,1.0
+45,GradientBoostingClassifier,"{'learning_rate': 0.01, 'n_estimators': 10, 'random_state': 221}",0.7109393752700389,0.9315789473684208,0.9736842105263158
+46,GradientBoostingClassifier,"{'learning_rate': 0.01, 'n_estimators': 100, 'random_state': 221}",0.726205906983939,0.9473684210526315,0.9736842105263158
+47,GradientBoostingClassifier,"{'learning_rate': 0.1, 'n_estimators': 10, 'random_state': 221}",0.7283988894400795,0.9473684210526315,0.9736842105263158
+48,GradientBoostingClassifier,"{'learning_rate': 0.1, 'n_estimators': 100, 'random_state': 221}",0.7504607330122205,0.9578947368421052,1.0
+49,GradientBoostingClassifier,"{'learning_rate': 1, 'n_estimators': 10, 'random_state': 221}",0.700158489489153,0.9105263157894735,0.9736842105263158
+50,GradientBoostingClassifier,"{'learning_rate': 1, 'n_estimators': 100, 'random_state': 221}",0.7297117451579694,0.9315789473684208,1.0
+51,AdaBoostClassifier,"{'learning_rate': 0.01, 'n_estimators': 10, 'random_state': 221}",0.6942229681074072,0.9,0.9473684210526315
+52,AdaBoostClassifier,"{'learning_rate': 0.01, 'n_estimators': 100, 'random_state': 221}",0.6965156315842813,0.9105263157894737,0.9473684210526315
+53,AdaBoostClassifier,"{'learning_rate': 0.1, 'n_estimators': 10, 'random_state': 221}",0.6942229681074072,0.9052631578947368,0.9473684210526315
+54,AdaBoostClassifier,"{'learning_rate': 0.1, 'n_estimators': 100, 'random_state': 221}",0.7219212899990932,0.9421052631578947,0.9736842105263158
+55,AdaBoostClassifier,"{'learning_rate': 1, 'n_estimators': 10, 'random_state': 221}",0.7075868925125219,0.9105263157894737,0.9473684210526315
+56,AdaBoostClassifier,"{'learning_rate': 1, 'n_estimators': 100, 'random_state': 221}",0.6879387298437641,0.9315789473684212,1.0
+57,XGBClassifier,"{'n_estimators': 500, 'max_depth': 5, 'subsample': 0.6, 'colsample_bytree': 0.7, 'random_state': 221}",0.7452423148933447,0.9578947368421055,1.0
+58,XGBClassifier,"{'n_estimators': 500, 'max_depth': 5, 'subsample': 0.8, 'colsample_bytree': 0.7, 'random_state': 221}",0.735373893840713,0.9631578947368421,1.0
+59,XGBClassifier,"{'n_estimators': 500, 'max_depth': 8, 'subsample': 0.6, 'colsample_bytree': 0.7, 'random_state': 221}",0.7420005147407893,0.9736842105263158,1.0
+60,XGBClassifier,"{'n_estimators': 500, 'max_depth': 8, 'subsample': 0.8, 'colsample_bytree': 0.7, 'random_state': 221}",0.7375192027651982,0.963157894736842,1.0
+61,MLPClassifier,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,), 'random_state': 221}",0.5576306321443619,0.8,0.9210526315789473
+62,MLPClassifier,"{'alpha': 0.0001, 'hidden_layer_sizes': (200,), 'random_state': 221}",0.4373983186912249,0.631578947368421,0.6052631578947368
+63,MLPClassifier,"{'alpha': 0.0001, 'hidden_layer_sizes': (300,), 'random_state': 221}",0.4454834829548788,0.2631578947368421,0.2631578947368421
+64,MLPClassifier,"{'alpha': 1e-05, 'hidden_layer_sizes': (100,), 'random_state': 221}",0.5449788102820138,0.8736842105263157,0.868421052631579
+65,MLPClassifier,"{'alpha': 1e-05, 'hidden_layer_sizes': (200,), 'random_state': 221}",0.4392359166386626,0.5368421052631579,0.5526315789473685
+66,MLPClassifier,"{'alpha': 1e-05, 'hidden_layer_sizes': (300,), 'random_state': 221}",0.44882063017074464,0.2631578947368421,0.2631578947368421
+67,MLPClassifier,"{'alpha': 1e-06, 'hidden_layer_sizes': (100,), 'random_state': 221}",0.5538197500440063,0.7789473684210527,0.8157894736842105
+68,MLPClassifier,"{'alpha': 1e-06, 'hidden_layer_sizes': (200,), 'random_state': 221}",0.4531955934987971,0.6210526315789473,0.6578947368421053
+69,MLPClassifier,"{'alpha': 1e-06, 'hidden_layer_sizes': (300,), 'random_state': 221}",0.44991712139881473,0.2578947368421053,0.2631578947368421
